@@ -12,7 +12,9 @@ while(arr<myArray.length){
     arr=arr+1;
 }
 
-// let score=1;
-// do{
-//     console.log(`score is `)
-// }
+ let score=11;
+ do{
+     console.log(`score is ${score} `);
+     score++;
+ }
+ while(score<=10);
