@@ -60,6 +60,17 @@ form.addEventListener('submit', function (e) {
 ```
 ## project 3 solution
 ```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleDateString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
+## project 4 solution
+```javascript
 let randemNumber = console.log(parseInt(Math.random() * 100 + 1));
 
 const submit = document.querySelector('#subt');
